@@ -26,20 +26,20 @@ li {
 }
 
 .light-theme {
-    --bg: var(--green);
+    --bg: var(--white);
     --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
+    --bright-switcherBg: var(--black);
+    --bright-switcherFontColor: var(--white);
 }
 
 .dark-theme {
   --bg:var(--black);
-  --fontColor: var(--green);
-  --btnBg: var(--white);
-  --btnFontColor: var(--black);
+  --fontColor: var(--white);
+  --bright-switcherBg: var(--white);
+  --bright-switcherFontColor: var(--black);
 }
 
-.btn {
+.bright-switcher {
   position: absolute;
   top: 20px;
   left: 250px;
@@ -47,6 +47,6 @@ li {
   width: 50px;
   border-radius: 50%;
   border: none;
-  color: var(--btnFontColor);
-  background-color: var(--btnBg);
+  color: var(--bright-switcherFontColor);
+  background-color: var(--bright-switcherBg);
 }
