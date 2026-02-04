@@ -1,5 +1,5 @@
 'use strict';
-const themeSwitcher = document.querySelector('.btn');
+const themeSwitcher = document.querySelector('.bright-switcher');
 
 themeSwitcher.addEventListener('click', function() {
     document.body.classList.toggle('light-theme');
